@@ -1,0 +1,304 @@
+
+/* 小型ＰＣ、横タブレット用の設定 */
+@media (max-width: 1099px) {
+
+
+	
+}
+
+
+/* タブレット用の設定 */	
+@media (max-width: 896px) {
+
+
+.dl_point{
+	padding:15px;
+	margin:15px 0;
+	border:1px solid #666;
+	}
+
+.dl_point.step1{
+	border:1px solid #29abe2;
+}
+
+.dl_point dt{
+	padding: 15px 0 0 5px;
+	font-size: 1.4rem;
+	color:#333;
+	display: flex;
+	align-items: center;
+}
+
+.dl_point dt > i{
+	padding-right: 10px;
+}
+
+	
+.dl_point.step1 dt{
+	border-bottom: 1px solid #29abe2;
+}
+
+.dl_point dd{
+	padding: 30px 0 0 0;
+}
+	
+.dl_point dd p{
+	font-size: 1.2rem;
+}
+	
+.dl_point dd p.txtCenter{
+	padding: 0;
+	margin: 0;
+}
+	
+a.btn-squareOreRadi::after {
+	margin-left: 10px;
+}
+
+.dl_point dd p a.btn-squareOreRadi{
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+a.btn-squareOreRadi {
+	font-weight: bold;
+	font-size: 1.4rem;
+	display: block;
+}	
+	
+ul.pay-logSlide.spnoslide {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between
+}
+
+ul.pay-logSlide.spnoslide li{
+	width: 49%;	
+}
+
+.h2_border {
+	font-size: 1.4rem;	
+}
+
+.h3-lineLB {
+	padding: 10px 15px 8px 15px;
+}
+
+	
+	
+.font-cl-step1 {
+	padding: 5px 0 8px 13px;
+}
+
+.font-cl-step2 {
+	padding: 5px 0 8px 13px;
+}
+
+.font-cl-step3 {
+	padding: 5px 0 8px 13px;
+}
+
+.font-cl-step4 {
+	padding: 5px 0 8px 13px;
+}
+
+.font-cl-step5 {
+	padding: 5px 0 8px 13px;
+	margin-bottom:10px;
+}
+
+	
+.flex10, .flex25, .flex30, .flex40, .flex50, .flex60, .flex65, .flex70, .flex75.spw100, .flex90 {
+	width: 100%;
+	display: block;
+}
+	
+	
+.spw80 {
+	width: 80%;	
+}
+	
+.spw70 {
+	width: 70%;	
+}	
+
+.spw50 {
+	width: 50%;	
+}	
+	
+.spCen {
+	margin: 0 auto;
+}
+
+.sppg20 {
+	padding: 20px 0;
+}
+
+.spmgt10 {
+	margin-top: 10px;
+}
+.spmgt15 {
+	margin-top: 15px;
+}
+
+.marg-t20 {
+	margin: 0;
+	}
+
+.spsmall95, .spsmall95.small70{
+	font-size: 95%;
+}
+
+h3.detail_1, h3.detail_2, h3.detail_3, h3.detail_4, h3.detail_5, h3.detail_6, h2.detail_1, h2.detail_2, h2.detail_3, h2.detail_4, h2.detail_5, h2.detail_6, h3.detail_7 {
+		width: 108%;
+		width: -moz-calc(100% + 40px);
+		width: -webkit-calc(100% + 40px);
+		width: calc(100% + 40px);
+		font-size: 110%;
+		margin:10px -20px 15px;
+		padding: 0 35px;
+		line-height: 140%;
+		background-color: #de6bae;
+		background-position: right center;
+		background-repeat: no-repeat;
+		display: flex;
+		align-items: center;
+}
+
+footer nav ul.f-step {
+	display: block;
+	margin-top: 10px;
+	padding: 0 15px;
+	font-family: 'M PLUS 1p', sans-serif;
+}
+
+footer nav ul.f-step > li{
+	width: 100%;
+}
+	
+
+footer nav ul.f-step > li ul.f-stepIn{
+	display: none;
+}
+
+
+footer nav ul.f-step > li ul.f-stepIn li > a{
+	font-size: 1.4rem;
+	padding: 15px;
+	text-align: center;
+
+}
+
+li > a.open.step4 {
+	font-size: 100%;
+}
+
+
+footer nav ul.f-step li.f-step1,footer nav ul.f-step li.f-step2,footer nav ul.f-step li.f-step3,footer nav ul.f-step li.f-step4,footer nav ul.f-step li.f-step5{
+	border: none;
+}
+
+footer nav ul.f-step li > a.open {
+	font-size: 1.8rem;
+	position: relative;
+}
+
+footer nav ul.f-step li > a.open::after {
+	content: "\025bc";
+	position: absolute;
+	right: 15px;
+	font-size: 80%;
+}
+
+	
+ul.f-stepIn li a::before {
+	content: none;	
+}	
+
+footer nav ul.f-step li ul.f-stepIn li:last-child {
+	margin-bottom: 5px;
+}
+	
+li.rankCont div h3.small80 {
+    font-size: 100% !important;
+    height: 35px;
+}
+
+a.open.sp {
+	display: flex !important;
+}
+
+.cont2 table.table {
+    width: 100%;
+	table-layout: fixed;
+	word-break: break-word;
+}
+	
+.h-naviImg {
+	padding: 0 15px;
+	margin-top: 15px;
+}
+
+.h-naviImg img{
+	vertical-align: bottom;
+}
+
+
+.h-naviImg.sp {
+		
+}
+	
+
+@media (max-width: 480px) {
+
+	
+	
+nav.global-nav ul.iconMenu,footer ul.iconMenu{
+	margin:15px;
+	display:flex;
+	justify-content: space-between;
+}
+	
+footer ul.iconMenu{
+	width: initial;
+}
+	
+nav.global-nav ul.iconMenu li,footer ul.iconMenu li{
+	display:block;
+	width:49%;
+	background:#f7931e;
+	text-align:center;
+	}
+	
+nav.global-nav ul.iconMenu li a,footer ul.iconMenu li a{
+	display: block;
+	padding:15px;
+	color:#FFF;
+	}	
+
+footer ul.iconMenu li a	{
+	margin-left: 0;	
+}
+
+h2.tb-bdr {
+	width: 100%;
+	padding: 15px 0;
+}
+
+h2.tb-bdr + ul.curriculum {
+	margin-top: 5px;
+}
+
+	
+.w637px {
+	width: 100%;
+}
+	
+
+/* Android・iPhone8 */
+
+@media (max-width: 375px) {
+	
+
+}
